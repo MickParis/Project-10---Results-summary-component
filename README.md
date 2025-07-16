@@ -9,7 +9,6 @@ Users should be able to:
 
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
-- **Bonus**: Use the local JSON data to dynamically populate the content
 
 ### Screenshot
 
@@ -17,7 +16,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live site URL](https://mickparis.github.io/Project-10---Results-summary-component/)
+- Live Site URL: [Results Summary Component](https://mickparis.github.io/Project-10---Results-summary-component/)
 
 ### Built with
 
@@ -28,4 +27,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@username](https://www.frontendmentor.io/profile/MickParis)
+- Frontend Mentor - [MickParis](https://www.frontendmentor.io/profile/MickParis)
