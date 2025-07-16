@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Summary Component</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
+
+    <!-- Hanken Grotesk Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="main-container">
+            <section class="result-section">
+                <div class="result-inner-section">
+                    <h3>Your Result</h3>
+                    <div class="circle-score">
+                        <h1>76</h1>
+                        <p>of 100</p>
+                    </div>
+                    <div class="feedback-container">
+                    <h2>Great</h2>
+                    <p>You scored higher than 65% of the people who have taken these tests.</p>
+                    </div>
+                </div>    
+            </section>
+
+            <section class="summary-container">
+                <h3 class="bold">Summary</h3>
+                <div class="summary-content">
+                    <div class="skill-container reaction">
+                        <article class="skill">
+                            <img src="images/icon-reaction.svg">
+                            <div>
+                                <p>Reaction</p>
+                            </div>
+                        </article>
+                        <p class="points bold">80 <span>/ 100</span></p>
+                    </div>
+                    <div class="skill-container memory">
+                        <article class="skill">
+                            <img src="images/icon-memory.svg">
+                            <div>
+                                <p>Memory</p>
+                            </div>
+                        </article>
+                        <p class="points bold">92 <span>/ 100</span></p>
+                    </div>
+                    <div class="skill-container verbal">
+                        <article class="skill">
+                            <img src="images/icon-verbal.svg">
+                            <div>
+                                <p>Verbal</p>
+                            </div>
+                        </article>
+                        <p class="points bold">61 <span>/ 100</span></p>
+                    </div>
+                    <div class="skill-container visual">
+                        <article class="skill">
+                            <img src="images/icon-visual.svg">
+                            <div>
+                                <p>Visual</p>
+                            </div>
+                        </article>
+                        <p class="points bold">80 <span>/ 100</span></p>
+                    </div>
+                </div>
+                <button class="btn bold">Continue</button>    
+            </section>
+        </section>
+    </main>
+</body>
+</html>
